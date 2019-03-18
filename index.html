@@ -7,6 +7,7 @@
     <meta name="description" content="Hoja de Vida HTML Ingeniero Rodian Jasef Saby Sanabria - Actualización Marzo 2019">
     <meta name="keywords" content="Hoja de Vida, Ingeniero Catastral y Geodesta, Rodian Saby">
     <title>Hoja de Vida Ingeniero Rodian Jasef Saby Sanabria</title>
+    <!--Enlace a archivo CSS-->
     <link rel="stylesheet" href="CSS/estilos.css">
   </head>
   <body>
@@ -29,7 +30,7 @@
       <img src="Imagenes/HV_Foto.jpeg" alt="FotoIngRodianSaby" title="Foto Ingeniero Rodian Saby" height="300px">
     </svg>
       <!--Justificación del texto de los párragos en la etiqueta p-->
-    <p style="text-align:justify;">
+    <p>
       Especialista en Geomática y en Gestión de Proyectos de Ingeniería, Ingeniero Catastral y Geodesta de más de nueve años de trabajo profesional continuo, con intereses en cargos de liderazgo, gestión y analítica de datos e inteligencia de negocios en entidades estatales y compañías socialmente responsables. Con experiencia en las áreas de geodesia, cartografía, estadística, teledetección, gestión y administración de Sistemas de Información Geográfica, bases de datos, gestión de proyectos e infraestructura de datos espaciales. Conocimientos en análisis espaciales, automatización de procesos geográficos, diseño gráfico, programación y desarrollo web. Profesional con habilidades de liderazgo, adaptación al cambio, aprendizaje continuo, planeación y orientación al resultado, misión y visión organizacional.
     </p>
     <p>
@@ -41,11 +42,14 @@
     </ul>
     <!--Enlaces de navegación por la HV-->
     <h3>Navegue por la Hoja de Vida</h3>
-    <ul>
-      <li><a href="#informacionPersonal">Información Personal</a></li>
-      <li><a href="educacion.html">Educación</a></li>
-      <li><a href="experiencia.html">Experiencia Laboral</a></li>
-    </ul>
+    <nav>
+      <ul>
+        <!--Implementación del selector class-->
+        <li class="itemIndice"><a class="enlace" href="#informacionPersonal">Información Personal</a></li>
+        <li class="itemIndice"><a class="enlace" href="educacion.html">Educación</a></li>
+        <li class="itemIndice"><a class="enlace" href="experiencia.html">Experiencia Laboral</a></li>
+      </ul>
+    </nav>
   </body>
   <footer>
     <h2>Contáctame</h2>
