@@ -23,3 +23,17 @@ h2 ~ p{
 ul li{
   list-style-type: circle;
 }
+a[href^='https://']:visited{
+  color:red;
+}
+a:hover{
+  color:green;
+}
+h2:first-child{
+  text-decoration: underline;
+  background-color: black;
+  color:green;
+}
+p::first-letter{
+  text-transform:capitalize;
+}
